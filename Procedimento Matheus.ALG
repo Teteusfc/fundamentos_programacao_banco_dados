@@ -1,46 +1,28 @@
-
-Algoritmo "Procedimento 2 inicios Matheus "
+Algoritmo "procedimento inicio"
 //
 //
-// Descrição   :
-// Autor(a)    : Matheus Moreira(a)
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/06/2024
-
-
 Var
    // Seção de Declarações das variáveis
    nome: caractere
-   idade: inteiro
-    telefone : inteiro
-inicio
 
-   escreva ("Olá ", idadeUsuario, ",")
+inicio
+procedimento saudacao (nomeUsuario: caractere)
+
+("olá ", nomeUsuario)
 fimprocedimento
 
-procedimento idade (idadeUsuario: inteiro)
-inicio
-   escreva (" você tem ", idadeUsuario, " anos, ")
-fimprocedimento
-
-procedimento telefone (telefoneUsuario: inteiro)
-inicio
-
-   escreva ("e o seu telefone é ", telefoneUsuario, ".")
-fimprocedimento
 
 Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
 
-   escreval ("Pode digitar seu nome: ")
-   leia (nome)
-   escreval ("Pode digitar sua idade: ")
-   leia (idade)
-   escreval ("Pode digitar seu telefone: ")
-   leia (telefone)
+   escreval ("pode digitar seu nome: ")
+
+   leia(nome)
 
    limpatela
+
    saudacao (nome)
-   idade (idade)
-   telefone (telefone)
-
-
 Fimalgoritmo
